@@ -365,7 +365,7 @@ const Schedule = () => {
               return (
                 <React.Fragment key={`date-heading-${currentDate}`}>
                   <tr>
-                    <td className="table-header" colSpan="3">
+                    <td className="table-header" colSpan="3" id={currentDate === 5 ? 'nov5-events' : null}>
                       {currentDate === 4 ? 'November 4th' : 'November 5th'}
                     </td>
                   </tr>
@@ -384,7 +384,7 @@ const Schedule = () => {
             );
           })}
           <tr>
-            <td className="table-header" colSpan="3">
+            <td className="table-header" id="constant-events" colSpan="3">
               Constant Events
             </td>
           </tr>
