@@ -268,6 +268,7 @@ const PrizesPage = () => {
     { title: 'Cyber Security Hack', amount: '$400' },
   ];
   const smallPrize1 = [
+    { title: 'Best Web3 Hack', amount: '$400' },
     { title: 'Best Mobile Hack', amount: 'Wireless Earbuds' },
     { title: 'Best Startup', amount: 'Mini Projector' },
     { title: 'Best Sustainability Hack', amount: 'Reusable Notepad' },
@@ -294,7 +295,7 @@ const PrizesPage = () => {
     <PrizeContainer>
       <TotalPrizeContainer>
         <SpinningGear />
-        <TotalPrize>$18,875&nbsp;in Prizes</TotalPrize>
+        <TotalPrize>$19,275&nbsp;in Prizes</TotalPrize>
         <SpinningGearReverse />
       </TotalPrizeContainer>
 
